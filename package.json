@@ -1,0 +1,33 @@
+{
+  "name": "octodocker",
+  "version": "1.0.0",
+  "description": "Octoblu stack debugging tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "bin": {
+    "octodocker-stats": "./command-stats.js",
+    "octodocker": "./command.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/octoblu/octodocker.git"
+  },
+  "author": "Octoblu, Inc. <npm@octoblu.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/octoblu/octodocker/issues"
+  },
+  "homepage": "https://github.com/octoblu/octodocker#readme",
+  "dependencies": {
+    "async": "^2.1.1",
+    "coffee-script": "^1.11.1",
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "debug": "^2.2.0",
+    "dockerode": "^2.3.1",
+    "lodash": "^4.16.4",
+    "prettysize": "^0.0.3"
+  }
+}
